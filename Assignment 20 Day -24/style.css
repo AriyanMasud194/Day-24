@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.clear::after{
+    content: "";
+    clear: both;
+    display:block;
+}
+
+/* header-section */
+.header-section{}
+
+.menu {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 46px;
+}
+.menu ul{}
+.menu ul li {
+	display: inline-block;
+	margin: 10px 20px;
+}
+.menu ul li a {
+	text-decoration: none;
+	font-size: 17px;
+	background: #dddddd;
+	padding: 9px;
+	color: #000;
+	font-weight: bold;
+}
+.title {
+	text-align: center;
+	margin-top: 35px;
+	background: #dddddd;
+	width: 90%;
+	margin: auto;
+}
+
+.title h2 {
+	color: #b63c33;
+	margin-top: 35px;
+	display: inline-block;
+	font-size: 35px;
+}
+.title p {
+	margin-top: 22px;
+	padding: 0 46px;
+	margin-bottom: 48px;
+	display: inline-block;
+}
+
+/* about-section */
+.about-section {
+	margin-top: 50px;
+}
+.image-left {
+	float: left;
+	width: 38%;
+}
+.image-left img {
+	max-width: 100%;
+}
+.about-right {
+	float: right;
+	width: 62%;
+}
+
+.about-section h3 {
+	background: #dddddd;
+	margin-left: ;
+	padding-left: 122px;
+	font-size: 28px;
+}
+.about-section h4 {
+	margin-left: 122px;
+	font-size: 25px;
+	color: #b63c33;
+	margin-top: 6px;
+}
+.about-right p {
+	margin-left: 122px;
+}
+
+.about-right h5 {
+	margin-left: 122px;
+	font-size: 18px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.about-section ul li {
+	margin-left: 122px;
+	line-height: 22px;
+}
+
+/* service-section */
+.service-section {
+	text-align: center;
+	margin-bottom: 28px;
+}
+.service-title h2 {
+	border: 1px solid;
+	display: inline-block;
+	padding: 13px 17px;
+	background: #dddddd;
+	text-align: center;
+	font-size: 41px;
+	margin-bottom: 33px;
+}
+.service-title h2 {
+	border: 1px solid;
+	display: inline-block;
+	padding: 9px 19px;
+	background: #dddddd;
+	text-align: center;
+	font-size: 31px;
+	margin-bottom: 33px;
+}
+.services {
+	float: left;
+	width: 31.3%;
+	text-align: center;
+	margin-left: 0;
+	background: #dddddd;
+	margin-right: 12px;
+	margin-left: 15px;
+}
+.services h1 {
+	font-size: 26px;
+	margin-top: 29px;
+}
+.services p {
+	font-size: 17px;
+	padding: 24px;
+	padding-bottom: 46px;
+	padding-top: 0;
+	line-height: 24px;
+	word-spacing: 2px;
+	margin-top: ;
+}
+
+/* footer-section */
+.footer-section {
+	background: #dddddd;
+	border-top: 2px solid #000;
+	text-align: center;
+	padding: 14px 0;
+}
+
+.footer-section h1 {
+	font-size: 28px;
+	word-spacing: 2px;
+}
+.footer-section p {
+	font-size: 16px;
+}
